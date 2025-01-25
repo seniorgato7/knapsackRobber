@@ -22,7 +22,6 @@ const weights = [1, 2, 3];  // weights of the items
 const values = [10, 15, 40]; // values of the items
 const capacity = 5;          // maximum weight capacity of the knapsack
 
-
 // Calculate the maximum value that can be carried
 const maxValue = knapsack(weights, values, capacity);
 console.log(`The maximum value that can be carried in the knapsack is: ${maxValue} pesos`);
